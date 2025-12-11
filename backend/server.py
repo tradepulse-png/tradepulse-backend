@@ -31,3 +31,4 @@ def sell(req: TradeRequest):
 @app.post("/close")
 def close_all():
     return {"message": "All positions closed"}
+# force rebuild 2
